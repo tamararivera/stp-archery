@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body{
+  font-family: 'Oxygen', sans-serif;
+}
+
+.button {
+  background: rgb(148, 192, 77);
+  border: 1px solid rgb(133, 166, 68);
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
+  transition: background-color 0.2s,box-shadow 0.2s ease,text-shadow 0.2s;
+  padding: 0.4em 0.6em 0.4em 0.7em;
+}
+
+.button:hover {
+  background: rgb(133, 166, 68);
+}
