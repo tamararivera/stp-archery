@@ -54,3 +54,12 @@ main p {
   background: rgb(133, 166, 68);
 }
 
+footer {
+  background: rgb(216, 232, 186);
+  color: rgb(109, 114, 61);
+  font-size: 0.8rem;
+}
+
+footer div {
+  margin-left: 1rem !important;
+}
