@@ -43,11 +43,19 @@ main p {
 h2 {
   font-size: 1.6rem;
   text-align: center;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(150, 195, 75);
 }
 
 h3 {
   font-size: 1.3rem;
+  padding-bottom: 0.8rem;
+  color: rgb(150, 195, 75);
+}
+
+h4 {
+  color: rgb(150, 195, 75);
 }
 
 .main-content {
@@ -64,8 +72,12 @@ h3 {
   width: 240px;
 }
 
-.instructors-list {
+ul {
   list-style: none;
+}
+
+.schedule {
+  border: 1px solid rgb(109, 114, 61);
 }
 
 .button {
