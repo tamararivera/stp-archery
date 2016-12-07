@@ -30,9 +30,13 @@ nav a:hover {
 }
 
 .logo {
-  height: 1.4rem;
+  height: 3rem;
   display: block;
   margin: 0 auto;
+}
+
+.logo-container {
+  margin: 0;
 }
 
 main p {
