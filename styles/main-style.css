@@ -36,8 +36,18 @@ nav a:hover {
 }
 
 main p {
-  margin: 1rem;
+  margin: 1rem auto;
   text-align: justify;
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 .main-content {
@@ -47,6 +57,15 @@ main p {
 .index-picture {
   display: block;
   margin: 0 auto;
+}
+
+.instructor-photo {
+  height: 180px;
+  width: 240px;
+}
+
+.instructors-list {
+  list-style: none;
 }
 
 .button {
