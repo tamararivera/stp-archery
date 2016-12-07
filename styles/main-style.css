@@ -2,6 +2,30 @@
 
 body{
   font-family: 'Oxygen', sans-serif;
+  background: rgb(244, 242, 242);
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background: rgb(87, 68, 58);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(148, 192, 77);
+}
+
+.logo {
+  height: 1.4rem;
+  display: block;
+  margin: 0 auto;
 }
 
 .button {
@@ -19,3 +43,4 @@ body{
 .button:hover {
   background: rgb(133, 166, 68);
 }
+
