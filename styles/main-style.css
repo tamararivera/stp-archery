@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
+html {
+  height: 100%;
+}
+
 body{
   font-family: 'Oxygen', sans-serif;
   background: rgb(244, 242, 242);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -31,6 +38,10 @@ nav a:hover {
 main p {
   margin: 1rem;
   text-align: justify;
+}
+
+.main-content {
+  flex: 1;
 }
 
 .index-picture {
